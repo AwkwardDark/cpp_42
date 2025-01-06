@@ -250,7 +250,7 @@ void	PmergeMe::ford_johnson_vec(std::vector<int> &vec, int pair)
 	}
 }
 
-// Ford-Johnson Algorithm with list container
+// Ford-Johnson Algorithm with deque container
 
 void	PmergeMe::swap(std::deque<int> &tabd, int begin, int step)
 {
